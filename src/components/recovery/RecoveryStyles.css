@@ -1,0 +1,40 @@
+.recovery {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+.recovery:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/recovery-bg.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.recovery .content {
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    left: 0;
+    padding: 1rem;
+}
+
+.recovery h2 {
+    color: #f8f8f8;
+}
+
+.recovery p {
+    color: #f8f8f8;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:940px) {
+    .recovery .content {
+    width: 100%;
+    }
+}
+
+
